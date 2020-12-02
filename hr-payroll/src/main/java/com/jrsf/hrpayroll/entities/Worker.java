@@ -13,6 +13,7 @@ public class Worker implements Serializable {
     private Worker(){}
 
     public Worker(Long id, String name, Double dailyIncome) {
+        super();
         this.id = id;
         this.name = name;
         this.dailyIncome = dailyIncome;
